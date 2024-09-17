@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 01</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+
+        span.logo{
+            font-size: 24px;
+            color: #0D7C66;
+            
+            font-weight: bold;
+            padding-left: 0px;
+            
+
+        }
+
+        ul.menu{
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            gap: 22px;
+            font-size: 12px;
+            
+            
+
+        }
+
+        p.action{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin-right: 20px;
+           
+
+        main{
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }    
+
+    
+        }
+        .left{
+        display: flex;   
+        flex-direction: row;
+            /* background-color: #BDE8CA; */
+            width: 50%;
+        }
+
+        .right{
+            /* background-color: #D7C3F1; */
+        }
+        span.green{
+            color: #0D7C66;
+        }
+
+        .left h1{
+            line-height: 50px;
+            font-size: 50px;
+        }
+
+        .left p{
+            margin-top:40px ;
+            margin-bottom: 40px;
+            color: #345676;
+            font-size: 14px;
+        }
+
+        .left button{
+            background-color: #C7253E;
+            color: aliceblue;
+            /* padding: 10px 10px ;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer; */
+            font-size: 14px;
+
+        }
+
+        .copy{
+            padding-top: 40px;
+         
+
+        }
+
+        /* .right{
+        background-image:url('assets/images/rayhan.png'); 
+
+            background-size:cover;
+            background-position:center;
+            height: 300px; 
+            float: right;
+            
+
+        } */
+
+    </style>
+</head>
+<body>
+    <nav>
+        <span class="logo">
+                Nightingle    
+
+        </span>
+
+        <ul  class="menu">
+            
+            <li>Home</li>
+            <li>Features</li>
+            <li>About</li>
+            <li>Contact US</li>
+        </ul>
+        <p class="action">
+            Login
+
+        </p>
+
+    </nav>
+
+    <main style="display: flex;">
+        <div class="left">
+            <h1>
+                <span class="green">The purpose</span> of our lives is to be happy.
+            </h1>
+            <p>“Everything you can imagine is real.”</p>
+            <button height="20px" width="40px">             
+                Read more
+                
+            </button>
+            <p class="copy">illustration copyright</p>
+        </div>
+        <div class="right"><img src="assets/images/rayhan.png" height="300px" width="400px"></div>  
+
+
+    </main>
+    <button class="MyButton">
+        submit
+    </button>
+    
+</body>
+</html>
