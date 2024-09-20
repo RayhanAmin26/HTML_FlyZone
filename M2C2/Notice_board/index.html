@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .board{
+            width: 90%;
+            height: 800px;
+            background-color: teal;
+            padding: 20px;
+            border: 2px solid black;
+            position: relative;
+
+
+        }
+
+        .notice_sticky{
+            border: 1px solid white;
+            background-color: cornflowerblue;
+            position: sticky;
+            top: 5px;
+        }
+
+        .notice_fixed{
+            border: 1px solid white;
+            background-color: rgb(15, 81, 204);
+            position: fixed;
+            top:100;
+            z-index: 2000;
+            left: 850px;
+        }
+
+        .notice_static{
+            border: 1px solid white;
+            background-color: rgb(15, 204, 110);
+            position: static;
+            top: 40;
+            right: 50px;
+        }
+
+        .notice_relative{
+            border: 1px solid white;
+            background-color: rgb(179, 135, 14);
+            position: relative;
+            top: 300;
+            left: 50px;
+        }
+
+        .notice_absolute{
+            border: 1px solid white;
+            background-color: rgb(168, 58, 24);
+            position: absolute;
+            top: 60;
+            right: 66px;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="board">
+        <div class="notice_sticky">I am a sticky note!</div>
+        <div class="notice_fixed">I am a fixed note!</div>
+        <div class="notice_static">I am a static note!</div>
+        <div class="notice_relative">I am a relative note!</div>
+        <div class="notice_absolute">I am a absolute note!</div>
+
+
+
+    </div>
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+    </p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</body>
+</html>

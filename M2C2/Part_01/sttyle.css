@@ -1,0 +1,59 @@
+:root{
+    --bg-color: rgb(12, 66, 97);  /* Css variable rule  */
+    --f-size:40px;
+    --w-space:10PX;
+    --l-space:20px;
+   
+       
+}
+
+
+body{
+    background-color:var(--bg-color)
+}
+
+.a{
+    font-size: var(--f-size);
+    word-spacing: var(--w-space);
+    letter-spacing: var(--l-space);
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 90px;
+    color: rgb(150, 89, 177);
+    
+}
+
+.b{
+    font-size: var(--f-size);
+    word-spacing: var(--w-space);
+}
+
+.c{
+    font-size: var(--f-size);
+    word-spacing: var(--w-space);
+}
+
+.d{
+    font-size: var(--f-size);
+    word-spacing: var(--w-space);
+}
+
+.e{
+    font-size: var(--f-size);
+    word-spacing: var(--w-space);
+}
+
+
+.my_div{
+    height: 500px;
+    width: 700px;
+    background-color: cadetblue;
+    overflow: scroll;   
+    font-family: "Playpen Sans", cursive;
+    font-weight: 400;
+    line-height: 40px;
+    
+      
+      
+
+}
